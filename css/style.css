@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "メイリオ","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック",sans-serif;
+	font-size:14px;
+}
+#container {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.content {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 230px 0 0 0;
+	color: #fff;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+	-moz-background-size: cover;
+	background-size: cover;
+}
+.content a{
+	text-decoration:none;
+	color:#fff;
+}
+.content a:hover{
+	text-decoration:underline;
+}
+
+/* #section2 */
+#section2,
+#section3{
+	height:2000px !important;
+	padding-top:30px;
+}
+
+#section_ttl {
+	z-index:100;
+	background:#000 url(../img/bg_title.jpg) no-repeat 50% 0 fixed;
+}
+#section1 {
+	z-index:99;
+	background:#000 url(../img/bg_night_view.jpg) no-repeat 50% 0 fixed;
+}
+#section2 {
+	z-index:98;
+	background:#000 url(../img/bg_sakura3.jpg) no-repeat 50% 0 fixed;
+}
+#section3 {
+	z-index:97;
+	background:#000 url(../img/bg_love.jpg) no-repeat 50% 0 fixed;
+}
+#section4 {
+	z-index:96;
+	background:#000 url(../img/bg_html5.jpg) no-repeat 50% 0 fixed;
+}
+#section5 {
+	z-index:95;
+	background:#000 url(../img/bg_skytree.jpg) no-repeat 50% 0 fixed;
+}
+#section6 {
+	z-index:94;
+	background:#000 url(../img/bg_lovers.jpg) no-repeat 50% 0 fixed;
+}
+#section7 {
+	z-index:93;
+	background:#000 url(../img/bg_cafe.jpg) no-repeat 50% 0 fixed;
+}
+
+/* section_ttl */
+#section_ttl h1 span {
+	display:inline-block;
+	/*position:fixed;*/
+	position:absolute;
+	top: 300px;
+	left: 50px;
+	margin: 0;
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	font-size: 64px;
+	font-family:"Myriad Pro", "Trebuchet MS";
+}
+#section_ttl h1 .ttl02{left:90px;}
+#section_ttl h1 .ttl03{left:142px;}
+#section_ttl h1 .ttl04{left:163px;}
+#section_ttl h1 .ttl05{left:193px;}
+#section_ttl h1 .ttl06{left:220px;}
+#section_ttl h1 .ttl07{left:257px;}
+#section_ttl h1 .ttl08{left:310px;}
+#section_ttl h1 .ttl09{left:358px;}
+#section_ttl h1 .ttl10{left:400px;}
+
+/* text_box */
+.text_box {
+	/*position:fixed;*/
+	position:absolute;
+	top: 420px;
+	left:0;
+	width: 40%;
+	padding: 10px 20px;
+	background: rgba(255, 255, 255, 0.6);
+	border: 1px solid rgba(150, 150, 150, 0.1);
+	box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.3);
+	color:#000;
+}
+.text_box a {
+	color:#000;
+}
+
+/* title_area */
+.title_area {
+	position: absolute;
+	top: 100px;
+	left:0;
+	width: 60%;
+	padding: 12px 30px;
+	background: rgba(51, 51, 51, 0.7);
+	border: 1px solid rgba(150, 150, 150, 0.1);
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+.title_area h2 {
+	margin:0.5em 0;
+	font-weight: normal;
+	font-size: 28px;
+}
+
+/* tweetbox */
+.tweet_area{
+	position:relative;
+	height:1880px;
+	margin:30px 30px 60px 50px;
+}
+.tweetbox{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position:absolute;
+	width:275px;
+	line-height:1.5;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	filter:alpha(opacity=0);
+	-ms-filter:"alpha(opacity=0)";
+	opacity:0;
+}
+.tweet_area .tweetbox:nth-child(4n+1){left:0;}
+.tweet_area .tweetbox:nth-child(4n+2){left:25%;}
+.tweet_area .tweetbox:nth-child(4n+3){right:25%;}
+.tweet_area .tweetbox:nth-child(4n+4){right:0;}
+
+.tweet_area .tweetbox:nth-child(1){top:5%;}
+.tweet_area .tweetbox:nth-child(2){top:28%;}
+.tweet_area .tweetbox:nth-child(3){top:10%;}
+.tweet_area .tweetbox:nth-child(4){top:24%;}
+.tweet_area .tweetbox:nth-child(5){top:40%;}
+.tweet_area .tweetbox:nth-child(6){bottom:30%;}
+.tweet_area .tweetbox:nth-child(7){bottom:48%;}
+.tweet_area .tweetbox:nth-child(8){bottom:33%;}
+.tweet_area .tweetbox:nth-child(9){bottom:20%;}
+.tweet_area .tweetbox:nth-child(10){bottom:2%;}
+.tweet_area .tweetbox:nth-child(11){bottom:15%;}
+
+.tweetbox .thumb{
+	float:left;
+	margin:0 10px 8px 0;
+}
+.tweetbox .thumb img{
+	width:40px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.tweetbox .meta{
+	float:left;
+	margin-top:5px;
+	font-size:12px;
+}
+.tweetbox .tweet{
+	clear:both;
+	font-size:13px;
+}
+.tweetbox .tweet .keyword{
+	display:inline-block;
+	margin:0 2px;
+	padding:0 3px;
+	background-color:#fff;
+	font-weight:bold;
+	color:#000;
+	text-shadow:none;
+}
+.tweetbox .map{
+	margin-top:8px;
+}
+
+/* 文字色 */
+#section2 .tweetbox,
+#section2 .tweetbox a,
+#section7 .tweetbox,
+#section7 .tweetbox a{
+	color:#000;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+}
+/* 透過背景 */
+#section2 .tweetbox{
+	padding:10px;
+	border-radius:10px;
+	background-color:rgba(255, 255, 255, 0.4);
+}
+#section3 .tweetbox{
+	padding:10px;
+	border-radius:10px;
+	background-color:rgba(0, 0, 0, 0.2);
+}
