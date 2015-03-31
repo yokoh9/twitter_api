@@ -59,7 +59,7 @@
 			<ul>
 				<li><a href="https://dev.twitter.com/" target="_blank">Developers</a> &gt; <a href="https://dev.twitter.com/overview/documentation" target="_blank">Documentation</a> &gt; <a href="https://dev.twitter.com/overview/documentation" target="_blank">REST APIs</a></li>
 				<li><a href="https://dev.twitter.com/rest/tools/console" target="_blank">Exploring the Twitter API</a> *required twitter sign in</li>
-				<li><a href="http://qiita.com/drafts/760e432ebd39040d5a0f" target="_blank">Qiita : Twitter APIでつぶやきを取得する</a></li>
+				<li><a href="http://qiita.com/yokoh9/items/760e432ebd39040d5a0f" target="_blank">Qiita : Twitter APIでつぶやきを取得する</a></li>
 			</ul>
 		</div>
 	</section>
